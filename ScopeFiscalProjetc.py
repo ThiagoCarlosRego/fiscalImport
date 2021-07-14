@@ -18,9 +18,6 @@ try:
             if row >2: 
                 break
             
-
-
-
 except FileNotFoundError as e:
   print(e)
 except Exception as e:  
