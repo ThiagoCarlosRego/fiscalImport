@@ -1,3 +1,4 @@
+#Valores dos arquvios importado
 class ValuesClass(dict):
     def __init__(self, id, columns):
         self.id = id
