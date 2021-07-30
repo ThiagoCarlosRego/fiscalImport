@@ -46,22 +46,5 @@ except FileNotFoundError as e:
 except Exception as e:  
   print("An exception occurred:")
   print(e)
-  # continue  
 
-
-      #   print("Find code => " + str(values[1]))
-
-      # header = efd.Find_Header(str(values[1]))
-      # print("Values  = > " + str(len(values)))
-      
-      # head = header.List_Column()
-      # print("Head  = > " + str(len(head)))
-      # print("For each values")
-      # for count in range (len(head)): # For each header
-      #     print("for line => " + str(count))
-      #     print(head[count] + " => " + values[count+1]) # Header + value
-          
-      # row = row +1
-      # if row >2: 
-      #     break
 

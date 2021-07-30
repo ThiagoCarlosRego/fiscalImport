@@ -10,6 +10,7 @@ class EfdClass(dict):
         self.LoadHeaders()
 
     def LoadHeaders(self):
+        
         self.Headers.append(Header("0000", "REG,COD_VER,COD_VER,IND_SIT_ESP,IND_SIT_ESP,IND_SIT_ESP,IND_SIT_ESP,NOME,CNPJ,UF,COD_MUN,SUFRAMA,IND_NAT_PJ,IND_ATIV",
         {
             "COD_VER":"Código da versão do leiaute conforme a tabela",
